@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 face luiz rafhael 
+=======
+intagram Luiz rafhael
+Face Luiz rafhael Piratelo lorente
+>>>>>>> 5fe27987b73277558300c2aa9856e8055269cf61
