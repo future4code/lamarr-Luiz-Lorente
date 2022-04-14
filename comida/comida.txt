@@ -1,1 +1,6 @@
+<<<<<<< HEAD
+1 lasanha
+2 churrasco
+=======
 1 churrasco
+>>>>>>> 5fe27987b73277558300c2aa9856e8055269cf61
