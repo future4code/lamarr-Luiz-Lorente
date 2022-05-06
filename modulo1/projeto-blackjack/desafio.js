@@ -11,7 +11,7 @@
  * 
  */
 
-    let jogador = {
+    /*let jogador = {
        cartaTexto: [],
        cartaValor: []
     }
@@ -100,7 +100,7 @@ while (rodada = confirm(`Deseja iniciar uma rodada?`)){
    }
 
 
-}
+} */
 
 
 
