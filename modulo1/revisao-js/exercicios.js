@@ -40,41 +40,90 @@ console.log(retornaArrayOrdenado) */
  */
 
 // EXERCÍCIO 05
-function retornaNumerosParesElevadosADois(array) {
-    if(array *2 ===0){
-        return "par" 
-    }else {
-        
-    }
+/*function retornaNumerosParesElevadosADois(array) {
+    const newArray = []
+    const par = array.filter((array)=>(array % 2 === 0))
+    for(numero of par){
+    const elevado = numero * numero
+newArray.push(elevado)}
 
-    
- 
-}
+ return newArray
+}*/
 
 // EXERCÍCIO 06
-function retornaMaiorNumero(array) {
-  
-}
+/*function retornaMaiorNumero(array) {
+    return Math.max.apply(null, array)
+
+}*/
 
 // EXERCÍCIO 07
 function retornaObjetoEntreDoisNumeros(num1, num2) {
+  let numero
+  let diferenca
+  let modulo 
+  if (num1 > num2){
+      numero = num1
+      diferenca = num1- num2
+      modulo = num1 % num2 ===0
 
+  }else {
+      numero = num2
+      diferenca = num2 - num1
+      modulo = num2 % num1 === 0
+  } 
+  doisNumeros = {
+      maiorNumero: numero,
+      maiorDivisivelPorMenor: modulo,
+      diferenca : diferenca ,
+      
+  } 
+return doisNumeros
 }
 
 // EXERCÍCIO 08
 function retornaNPrimeirosPares(n) {
+    let numerosPares = [];
+    for (let i = 0; numerosPares.length < n; i++) {
+        if (i % 2 == 0) {
+            numerosPares.push(i);
+        }
+    }
+    return numerosPares
    
 }
 
 // EXERCÍCIO 09
 function classificaTriangulo(ladoA, ladoB, ladoC) {
-
+   let triangulo 
+   
+   if(ladoA !== ladoB && ladoA !== ladoC && ladoB !== ladoC){
+       triangulo = "Escaleno"}
+       else if (ladoA === ladoB && ladoA !== ladoC && ladoB !== ladoC || ladoA === ladoC
+        && ladoB !== ladoC && ladoB !== ladoA || ladoB === ladoC && ladoA !== ladoC && ladoA
+        !==ladoB){
+            triangulo = "Isósceles"
+        }else if(ladoA === ladoB && ladoA === ladoC && ladoB === ladoC){
+            triangulo = "Equilátero"
+        }
+        return triangulo
+        
 }
 
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
-  
+    
+    function ordem(a,b){
+        return (a -b )
+    }
+    array.sort(ordem)
+  segundoMaior = array[array.length -2]
+  segundoMenor =array[1]
+  return[segundoMaior, segundoMenor]
 }
+  
+
+
+
 
 // EXERCÍCIO 11
 function retornaChamadaDeFilme(filme) {
