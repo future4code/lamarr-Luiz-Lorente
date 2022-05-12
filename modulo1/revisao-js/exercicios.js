@@ -141,17 +141,43 @@ function retornaChamadaDeFilme(filme){
 
 // EXERCÍCIO 12
 function retornaPessoaAnonimizada(pessoa) {
+    const novaPessoa ={
+        ...pessoa,
+        nome: "ANÔNIMO"
+
+    }
+    return novaPessoa
    
 }
 
 // EXERCÍCIO 13A
-function retornaPessoasAutorizadas(pessoas) {
+    function retornaPessoasAutorizadas(pessoas) {
+
+    return pessoas.filter(pessoa => {
+        return(
+            pessoa.altura >= 1.5 && pessoa.idade<60 && pessoa.idade>14
+        )
+    }
+
+    )
+      return retornaPessoasAutorizadas
+ }
+
    
-}
+        
+    
+    
+
 
 // EXERCÍCIO 13B
 function retornaPessoasNaoAutorizadas(pessoas) {
-  
+    return pessoas.filter(naoAutorizado => {
+        return(
+            naoAutorizado.altura < 1.5 || naoAutorizado.idade >= 60 ||
+            naoAutorizado.idade <= 14
+        )
+    })
+  return retornaPessoasNaoAutorizadas
 }
 
 // EXERCÍCIO 14
