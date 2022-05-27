@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    color: black;
+    font-size: large;
+    background-image:url(./cruzeiro.jpg) ;
+}
+
+h2{
+    background-color: darkgrey;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.botao{
+    text-align: left;
+    color: blue;
+    background-color: gold;
+    border: 1px solid black;
+}
+
+img{
+    margin-right: 1350px;
+}
+section{
+    
+}
