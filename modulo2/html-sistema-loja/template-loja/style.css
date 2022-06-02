@@ -1,0 +1,59 @@
+h1{
+    color:blue;
+    font-size: larger;
+
+}
+
+p{
+    color: brown;
+    font-style: oblique;
+
+}
+
+div{
+    text-align: center;
+    background-color: aqua;
+}
+a{
+    color: blue;
+    font-style: oblique;
+}
+
+ul{
+    color: brown;
+    font-size: larger;
+    background-color: deepskyblue;
+    text-align: center;
+
+}
+h2{
+    font-style: normal;
+    text-align: center;
+}
+ul{
+    color: chartreuse;
+    font-size: larger;
+    background-color: gray;
+
+}
+
+td{
+    color: blue;
+}
+th{
+    color: brown;
+}
+.Titulo{
+    text-align: center;
+    background-color: aqua;
+}
+.titulo1{
+    text-align: center;
+    background-color: aqua;
+
+}
+.titulo2{
+    text-align: center;
+    background-color: aqua;
+
+}
