@@ -1,0 +1,72 @@
+body{
+    text-align: center;
+    color: black;
+    font-size: large;
+    background-image:url(./cruzeiro.jpg) ;
+}
+
+h2{
+    background-color: rgb(250, 11, 11);
+    border: 1px solid rgb(246, 242, 242);
+    text-align: center;
+}
+
+.botao{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: none;
+    margin: 0px 10px;
+    color:rgb(255, 47, 78);
+    background-color: aliceblue;
+
+}
+
+img{
+    margin-right: 1350px;
+    width: 300px;
+}
+
+h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: darkgrey;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px 90px;
+    width: 600px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+    box-shadow: 2px 2px rgba(red, green, blue, alpha);
+    
+}
+.conteiner{
+    display: flex;
+    justify-content:center;
+    padding: 100px 20px;
+    
+}
+ li{
+     margin: 30px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     color: rgb(163, 16, 16);
+     font-size: 15px;
+     font-weight: 700;
+ }
+ 
+ .Redes{
+     color:rgb(17, 0, 128);
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+
+ }
+ button:hover{
+     color: royalblue;
+ }
+ button:active{
+     color: beige;
+ }
